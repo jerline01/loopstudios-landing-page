@@ -1,0 +1,172 @@
+
+body {
+  font-family: 'Alata', sans-serif;
+}
+
+h1 {
+  border: 2px solid white;
+  margin: 50px;
+  margin-right: 70%;
+  padding: 2%;
+  position: absolute;
+  top: 30%;
+  opacity: 0.8;
+}
+
+h1,h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navigation bar */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  padding: 5%;
+}
+
+.navbar-nav {
+  padding-left: 50%;
+}
+
+/* header section */
+.header {
+  color: white ;
+}
+
+.header-img {
+  width: 100%;
+}
+
+/* interactive section */
+.interactive {
+  padding: 7%;
+  height: 700px;
+}
+
+.interactive-text {
+  margin: 2%;
+  padding: 5%;
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+  background-color: white;
+}
+
+.interactive-text p {
+  color: grey;
+}
+
+/* third section */
+.creation-title {
+  display: inline-block;
+}
+
+.creation {
+  padding: 7% 7% 0;
+}
+
+.creation-header {
+  padding-bottom: 2%;
+}
+
+.see-all {
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  left: 68%;
+}
+
+h4 {
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+  margin-right: 200px;
+  opacity: 0.8;
+}
+
+.grid {
+  margin-right: 250px;
+}
+
+.from-up,.make {
+  margin-right: 150px;
+}
+
+/* last section */
+.contact {
+  padding: 2% 7%;
+  background-color: black;
+  color: white;
+}
+
+.contact p,.icons {
+  display: inline-block;
+}
+
+.icons {
+  padding-left: 70%;
+}
+
+.fab, .about span {
+  padding: 0 10px;
+}
+
+.copyright {
+  padding-left: 40%;
+}
+
+
+@media (max-width:600px) {
+
+  h1 {
+    top: 10%;
+    font-size: 1.5rem;
+  }
+
+  .header-img {
+    height: 300px;
+  }
+
+  .navbar-nav {
+    padding-left: 0;
+  }
+
+  .interactive-text {
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .interactive-img {
+    width: 100%;
+  }
+
+  .creation img {
+    width: 100%;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .about span {
+    display: block;
+  }
+
+  .icons, .copyright {
+    padding-left: 0;
+  }
+
+  .contact p {
+    display: block;
+  }
+
+}
